@@ -1,0 +1,53 @@
+.imagen{
+    background-image: url("../images/michi.jpg");
+}
+
+.imagen2{
+    background-image: url("../images/37558.jpg");
+    background-size: cover;
+}
+
+.gif{
+    background-image: url("../images/1892328_762f7.gif");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+color: white;
+display: flex;
+justify-content: center;
+
+}
+
+.boton{
+    padding: 10px 30px;
+    background-color:pink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contendor{
+    height: 400px;
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
